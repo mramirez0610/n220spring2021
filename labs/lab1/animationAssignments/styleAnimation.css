@@ -1,0 +1,21 @@
+body{
+    background-color: #c3c3c3;
+}
+
+
+.bodyContainer{
+    margin-top: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.links{
+
+    position: absolute;
+    z-index: 1000;
+    padding-top: 250px;
+    padding-left: 450px;
+
+}
