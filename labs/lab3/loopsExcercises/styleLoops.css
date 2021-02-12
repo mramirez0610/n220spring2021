@@ -1,0 +1,33 @@
+body{
+    background: #c3c3c3;
+}
+
+.main_body{
+    margin-top: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    
+}
+
+img{
+    width: 83%
+}
+
+.link_one{
+    position: absolute;
+    z-index: 1000;
+    padding-left: 710px;
+    padding-bottom: 390px;
+    font-size: 10px;
+}
+
+.link_two{
+    display: grid;
+    position: absolute;
+    z-index: 1000;
+    padding-left: 915px;
+    padding-bottom: 580px;
+    font-size: 12px;
+}
