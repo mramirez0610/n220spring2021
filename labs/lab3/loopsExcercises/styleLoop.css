@@ -18,16 +18,16 @@ img{
 .link_one{
     position: absolute;
     z-index: 1000;
-    padding-left: 710px;
-    padding-bottom: 390px;
-    font-size: 10px;
+    padding-left: 595px;
+    padding-bottom: 330px;
+    font-size: 9px;
 }
 
 .link_two{
     display: grid;
     position: absolute;
     z-index: 1000;
-    padding-left: 915px;
-    padding-bottom: 580px;
-    font-size: 12px;
+    padding-left: 770px;
+    padding-bottom: 490px;
+    font-size: 10px;
 }
