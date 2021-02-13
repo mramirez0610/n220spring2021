@@ -16,8 +16,9 @@ img{
 }
 
 .link_one{
+
     position: absolute;
-    z-index: 1000;
+    z-index: 1020;
     padding-left: 595px;
     padding-bottom: 330px;
     font-size: 9px;
