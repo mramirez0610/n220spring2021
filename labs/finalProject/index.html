@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        h1{
+            font-family: 'Noto Sans JP';
+        }
+        body
+        {
+            background-color:#555794;
+        }
+        .themeChange{
+            margin: auto;
+            text-align: center;
+            border: 2px solid black;
+            width: 20%;
+            margin-bottom: 30px;
+            padding-bottom: 5px;
+            background-color: #D1C9C9;
+        }
+        #shuffleMain{
+            background-color: #7F81B2;
+            border: 8px inset #333577;
+            width: 60%;
+            margin: auto;
+            text-align: center;
+            padding-bottom: 100px;
+            font-family: sans-serif;
+        }
+        #userInputArea{      
+            padding-top: 50px;
+            margin: auto;
+            background-color: rgb(184, 194, 202);
+            border: 2.5px dashed #000000;
+            text-align: center;
+            padding-bottom: 50px;
+            width: 80%;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<body id="mainBody">
+
+    <div class="themeChange">
+        <h4>change theme</h4>
+        <button onclick="changeTheme0()"> greeeeeen </button>
+        <button onclick="changeTheme1()"> cool grey</button>
+    </div>
+
+    <div id="shuffleMain">
+        <p>
+            <h1>hello! welcome to the sentence scrambler.
+                <h2>what my application will do is: take the sentence you've entered, and show the same sentence, but <u>jumbled</u> (woooow)</h2>
+                <h3>go ahead!! try it :]</h3>
+            </h1>
+        </p>
+
+        <div id="userInputArea">
+            <input id ="userTxt" placeholder="type a sentence!" />
+            <button onclick="scrambleSentence()"> scramble sentence </button>
+                <div id="scrambleResult"></div>
+        </div>
+    </div>
+    
+    
+
+    <script src="js/project.js"></script>
+
+</body>
+</html>
